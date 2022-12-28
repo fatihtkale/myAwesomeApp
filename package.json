@@ -5,7 +5,9 @@
   "private": true,
   "dependencies": {
     "@nativescript/core": "~8.4.0",
-    "nativescript-vue": "3.0.0-beta.2"
+    "@nativescript/iqkeyboardmanager": "^2.1.0",
+    "nativescript-vue": "3.0.0-beta.2",
+    "tns-platform-declarations": "^6.5.15"
   },
   "devDependencies": {
     "@nativescript/android": "8.4.0",
