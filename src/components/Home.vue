@@ -3,15 +3,15 @@
 
 <template>
   <Frame>
-    <Page class="bg-white" actionBarHidden="true">
+    <Page actionBarHidden="true">
       <ScrollView>
         <StackLayout>
           <GridLayout rows="* auto auto 100">
             <Image
-              rowSpan="4"
-              src="~/assets/Path 1.png"
-              stretch="aspectFill"
               class="w-full"
+              stretch="aspectFill"
+              rowSpan="4"
+              src="~/assets/Path_1.png"
             />
 
             <Label
@@ -28,25 +28,46 @@
             ></Label>
           </GridLayout>
 
+          <Label
+            class="font-bold text-lg mx-4 mb-2 text-gray-300"
+            text="Email"
+          ></Label>
+          <TextField
+            class="py-4 text-black px-4 mx-4 bg-gray-100 border-none rounded-md"
+            hint="Enter text..."
+          />
+
           <!-- Everything else inside the scroll view -->
           <Button
-            class="my-4 px-4 py-2 bg-white border-2 border-blue-400 rounded-lg"
+            class="
+              my-4
+              px-4
+              py-2
+              dark:text-black
+              bg-white
+              border-2 border-blue-400
+              rounded-lg
+            "
             horizontalAlignment="center"
           >
             View Details
           </Button>
           <GridLayout columns="* auto *">
-            <StackLayout height="2" class="bg-gray-300 mx-4"></StackLayout>
-            <StackLayout
-              height="2"
-              class="bg-gray-300 mx-4"
-              col="2"
-            ></StackLayout>
+            <StackLayout class="bg-gray-300 h-1 mx-4"></StackLayout>
+            <StackLayout class="bg-gray-300 h-1 mx-4" col="2"></StackLayout>
 
             <Label col="1" text="Eller" class="mx-4"></Label>
           </GridLayout>
           <Button
-            class="my-4 px-4 py-2 bg-white border-2 border-blue-400 rounded-lg"
+            class="
+              my-4
+              px-4
+              py-2
+              dark:text-black
+              bg-white
+              border-2 border-blue-400
+              rounded-lg
+            "
             horizontalAlignment="center"
           >
             View Details
