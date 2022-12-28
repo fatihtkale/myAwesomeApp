@@ -10,6 +10,7 @@
               class="w-full"
               stretch="aspectFill"
               rowSpan="4"
+              iosOverflowSafeArea="true"
               src="~/assets/Path_1.png"
             />
 
@@ -27,8 +28,7 @@
             ></Label>
           </GridLayout>
 
-          <ScrollView class="mb-4">
-            <GridLayout rows="auto auto auto auto">
+            <GridLayout class="mb-4" rows="auto auto auto auto">
               <Label
                 class="font-bold text-lg mx-4 mb-2 dark:text-gray-300 text-gray-600"
                 text="Email"
@@ -50,7 +50,6 @@
                 class="py-4 text-black px-4 mx-4 bg-gray-100 border-none rounded-md dark:bg-gray-900 dark:text-white"
               />
             </GridLayout>
-          </ScrollView>
 
           <!-- Everything else inside the scroll view -->
           <Button
