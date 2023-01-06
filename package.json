@@ -7,6 +7,7 @@
     "@nativescript/core": "~8.4.0",
     "@nativescript/iqkeyboardmanager": "^2.1.0",
     "nativescript-vue": "3.0.0-beta.2",
+    "router-vue-native": "^2.0.0",
     "tns-platform-declarations": "^6.5.15"
   },
   "devDependencies": {
