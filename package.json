@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@nativescript-community/tween": "^0.0.14",
+    "@nativescript-community/ui-material-bottom-navigation": "^7.0.34",
     "@nativescript/core": "~8.4.0",
     "@nativescript/iqkeyboardmanager": "^2.1.0",
     "nativescript-vue": "3.0.0-beta.2",
