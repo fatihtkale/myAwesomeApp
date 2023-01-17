@@ -43,12 +43,12 @@ const navigate = (selectedIndex: number) => {
             class="flex items-center justify-center py-2 transition-all ease-in-out delay-150"
           >
             <Image col="0" width="30" src="~/assets/time.png"></Image>
-            <Label
-              v-if="selected === 1"
-              class="text-green-600 ml-1 font-bold text-[15px]"
-              col="1"
-              text="Tidsregistrering"
-            ></Label>
+              <Label
+                v-if="selected === 1"
+                class="text-green-600 ml-1 font-bold text-[15px]"
+                col="1"
+                text="Tidsregistrering"
+              ></Label>
           </FlexboxLayout>
         </StackLayout>
         <StackLayout col="2">
@@ -73,15 +73,18 @@ const navigate = (selectedIndex: number) => {
             class="flex items-center justify-center py-2 transition-all ease-in-out delay-150"
           >
             <Image col="0" width="30" src="~/assets/messages.png"></Image>
-              <Label
+            <Label
               v-if="selected === 3"
               class="text-green-600 ml-1 font-bold text-[15px]"
               col="1"
               text="Beskeder"
-              ></Label>
+            ></Label>
           </FlexboxLayout>
         </StackLayout>
       </FlexboxLayout>
     </GridLayout>
   </Page>
 </template>
+
+<style>
+</style>
